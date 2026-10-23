@@ -1,6 +1,11 @@
-# 🚌 UPES Dehradun Corridor Transit & Ghat Bottleneck Predictor
-> **Applied Machine Learning (CSAI2017P) — Comprehensive Group Project**  
+# 🚌 Transportation Delay System
+> **Corridor Congestion & Transit Delay Predictor for UPES Dehradun Bus Fleet**  
+> **Course:** Applied Machine Learning (CSAI2017P) — Comprehensive Group Project  
 > **Institution:** School of Computer Science, UPES Dehradun (Bidholi & Kandoli Campuses)  
+> **Project Team:**
+> * **Sparsh Srivastava (Leader)**
+> * **Yasharth Jaiswal**
+> * **Aayushman Kothari**  
 > **Batch:** 17, 18  
 > **Tech Stack:** Python 3.x, Scikit-Learn, Pandas, NumPy, Matplotlib
 
@@ -27,13 +32,13 @@ This project implements a dual-target Machine Learning pipeline trained on telem
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│             UPES Dehradun Corridor Transit & Bottleneck Predictor           │
+│                    Transportation Delay System (UPES Dehradun)              │
 └──────────────────────────────────────┬──────────────────────────────────────┘
                                        │
         ┌──────────────────────────────┼──────────────────────────────┐
         │                              │                              │
         ▼                              ▼                              ▼
-  [ MEMBER 1 ]                   [ MEMBER 2 ]                   [ MEMBER 3 ]
+ [ Aayushman Kothari ]          [ Yasharth Jaiswal ]       [ Sparsh Srivastava (Lead) ]
 Data Preprocessing, Route      Corridor Travel Time          Bottleneck Classification,
 Engineering & Class Imbalance  Regression & Loss Analysis    Ensembles & Neural Networks
 (Units I & IV)                 (Units II & V)                (Units III & VI)
@@ -41,9 +46,9 @@ Engineering & Class Imbalance  Regression & Loss Analysis    Ensembles & Neural 
 
 | Member | Focus Units | Key Deliverables & Methodologies |
 | :--- | :--- | :--- |
-| **Member 1** | **Units I & IV** | Real bus route ingestion, Median GPS imputation (hill signal loss), 99th-percentile clipping, One-Hot & Ordinal Encoders, VarianceThreshold, Undersampling. |
-| **Member 2** | **Units II & V** | OLS regression closed-form derivation, MSE vs. MAE vs. Huber Loss comparison, Ridge ($L_2$) and Lasso ($L_1$), $R^2$ ($0.912$) vs. Adjusted $R^2$ ($0.910$). |
-| **Member 3** | **Units III & VI** | Hinge Loss (Linear SVM), Cross-Entropy (Logistic/MLP), Adam vs. SGD optimization, Decision Tree (ID3 entropy rules), Random Forest, AdaBoost, Multi-Model ROC-AUC ($0.977$). |
+| **Sparsh Srivastava** (Leader) | **Units III & VI** | Hinge Loss (Linear SVM), Cross-Entropy (Logistic/MLP), Adam vs. SGD optimization, Decision Tree (ID3 entropy rules), Random Forest, AdaBoost, Multi-Model ROC-AUC ($0.977$). |
+| **Yasharth Jaiswal** | **Units II & V** | OLS regression closed-form derivation, MSE vs. MAE vs. Huber Loss comparison, Ridge ($L_2$) and Lasso ($L_1$), $R^2$ ($0.912$) vs. Adjusted $R^2$ ($0.910$). |
+| **Aayushman Kothari** | **Units I & IV** | Real bus route ingestion, Median GPS imputation (hill signal loss), 99th-percentile clipping, One-Hot & Ordinal Encoders, VarianceThreshold, Undersampling. |
 
 ---
 
